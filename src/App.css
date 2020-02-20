@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Arvo;
+  src: url('/Arvo-Regular.ttf');
+}
+
+.main-title {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.event {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.event .title {
+  float: left;
+  height: 100%;
+  font-family: Arvo;
+  font-size: 1.1rem;
+}
