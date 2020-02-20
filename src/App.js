@@ -5,8 +5,10 @@ import { events } from './event-data';
 
 function App() {
   const eventObjs = [];
+  let key = 0;
   events.forEach((event) => {
-    eventObjs.push(<Event event={event} />);
+    key = key + 1;
+    eventObjs.push(<Event event={event} key={key} />);
   });	   
   return (
     <div className="App">
